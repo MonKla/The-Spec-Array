@@ -16,7 +16,7 @@ function Navbar() {
 
         {/* Logo */}
         <div className="flex-shrink-0">
-          <h1 className="text-2xl font-bold">YDP.</h1>
+          <h1 className="text-2xl font-bold">The Spec Array.</h1>
         </div>
 
         {/* Desktop Menu */}
