@@ -1,16 +1,54 @@
-# React + Vite
+# The Spec Array ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive e-commerce product browsing page built for the Young Developer Power (YDP) mini-project. This project showcases a clean and modern user interface for viewing products, built with React and styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+![The Spec Array Screenshot](./screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **View All Products**: Fetches and displays a list of products from a live external API.
+- **Product Details Page**: Users can click on any product to navigate to a dedicated page with more detailed information.
+- **Fully Responsive Design**: The layout seamlessly adapts to both desktop and mobile screen sizes.
+- **Clean & Modern UI**: A minimalist design approach for a better user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💻 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Core Framework**: React (bootstrapped with Vite)
+- **Styling**: Tailwind CSS
+- **Client-Side Routing**: React Router DOM
+- **API Communication**: Axios
+- **API Source**: [Fake Store API](https://fakestoreapi.com/)
+
+---
+
+## 🛠️ Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+- You can download Node.js here: [https://nodejs.org/](https://nodejs.org/)
+
+### Installation & Setup
+
+1.  **Clone the repository**
+    ```sh
+    git clone https://github.com/MonKla/The-Spec-Array.git
+    ```
+2.  **Navigate to the project directory**
+    ```sh
+    cd Ydp
+    ```
+3.  **Install NPM packages**
+    ```sh
+    npm install
+    ```
+4.  **Run the development server**
+    ```sh
+    npm run dev
+    ```
+5.  **Open the app in your browser** at `http://localhost:5173` (or the address shown in your terminal).
